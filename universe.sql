@@ -1,5 +1,7 @@
 CREATE DATABASE universe;
 
+\connect universe;
+
 CREATE TABLE galaxy (
     galaxy_id SERIAL PRIMARY KEY,
     name VARCHAR(100) UNIQUE NOT NULL,
